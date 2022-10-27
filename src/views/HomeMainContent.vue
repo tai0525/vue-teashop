@@ -403,7 +403,7 @@ export default {
 }
 .tag {
   top: 0;
-  left: 0;
+  right: 0;
   writing-mode: vertical-lr;
 }
 </style>
