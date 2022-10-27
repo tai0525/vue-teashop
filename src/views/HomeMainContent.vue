@@ -198,7 +198,7 @@
           訂閱我們以獲得更多優惠資訊
         </h3>
         <div class="row justify-content-center">
-          <VForm v-slot="{ errors }" class="col-md-6" @submit="subscribeInfo">
+          <VForm v-slot="{ errors }" class="col-md-8" @submit="subscribeInfo">
             <div class="row justify-content-center">
               <div class="w-50">
                 <VField
@@ -216,9 +216,7 @@
                   class="invalid-feedback fw-bold text-warning"
                 />
               </div>
-              <div
-                class="d-grid d-md-flex justify-content-center mt-2 text-nowrap"
-              >
+              <div class="d-grid gap-2 col-4">
                 <button
                   type="submit"
                   class="text-center btn btn-primary link-light"

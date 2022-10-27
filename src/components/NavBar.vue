@@ -12,14 +12,14 @@
       </RouterLink>
 
       <button
-        class="navbar-toggler bg-primary text-white"
+        class="navbar-toggler bg-primary"
         type="button"
         @click="toggleNav"
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"><i class="bi bi-list fs-2"></i></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" ref="myNavBarRef">
