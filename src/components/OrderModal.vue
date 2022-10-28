@@ -44,7 +44,7 @@
                     <td>{{ tempOrder.user.address }}</td>
                   </tr>
                   <tr>
-                    <th>留言</th>
+                    <th>備註</th>
                     <td>{{ tempOrder.message }}</td>
                   </tr>
                 </tbody>

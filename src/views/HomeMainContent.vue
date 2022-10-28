@@ -399,7 +399,7 @@ export default {
   background-image: url(../assets/images/home01.jpg);
 }
 .bg-p2 {
-  background-image: url(../assets/images/home06.jpg);
+  background-image: url(../assets/images/home05.jpg);
 }
 .tag {
   top: 0;

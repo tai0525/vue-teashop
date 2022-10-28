@@ -7,7 +7,6 @@
         to="/"
       >
         <i class="bi bi-bullseye"></i>
-        <!-- <br class="d-block d-sm-none d-lg-block d-xl-none" /> -->
         沁記茶行
       </RouterLink>
 

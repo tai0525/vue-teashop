@@ -149,7 +149,7 @@
                   </div>
 
                   <div class="mb-3">
-                    <label for="message" class="form-label">留言</label>
+                    <label for="message" class="form-label">備註</label>
                     <textarea
                       id="message"
                       class="form-control"

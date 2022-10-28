@@ -1,7 +1,7 @@
 <template>
   <VueLoading :active="isLoading" />
   <div class="container text-primary">
-    <h3 class="coffee-header">台灣茶常見種類：帶你了解六大茶系</h3>
+    <h3 class="tea-header">台灣茶常見種類：帶你了解六大茶系</h3>
 
     <p class="pb-1">
       六大類的茶葉雖因地區不同而生產製程略有差異，但其生產過程會影響其茶葉產品品質，因此基本生產程序卻是有一定步驟，以下進行簡略說明：
@@ -10,7 +10,7 @@
     <table class="table table-bordered border-secondary">
       <tbody>
         <thead>
-          <th width="15%">茶類名稱</th>
+          <th width="20%">茶類名稱</th>
           <th width="20%">茶葉種類</th>
           <th width="30%">加工方式</th>
         </thead>
@@ -53,7 +53,7 @@
       </tbody>
     </table>
 
-    <h3 class="coffee-header">台灣茶的六大產區在哪裡？</h3>
+    <h3 class="tea-header">台灣茶的六大產區在哪裡？</h3>
 
     <p class="pb-1">
       台灣茶最早聞名中外是因為特有的烏龍茶而聞名，而台灣得天獨厚的地理環境與氣候更是讓台灣茶好喝的秘訣，在台灣，茶區幾乎遍佈全島，而不同的土壤環境及海拔更造就了不同台灣茶的口感，比較出名的六大產區分別為：
@@ -110,7 +110,7 @@ export default {
 * {
   margin: auto;
 }
-.coffee-header {
+.tea-header {
   margin: 0.75rem auto;
   padding: 0.25rem 0.5rem;
   --bs-text-opacity: 1;
