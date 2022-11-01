@@ -70,7 +70,7 @@
                           <td>
                             <i
                               class="bi bi-x-circle fs-5"
-                              style="color: red"
+                              style="color: red; cursor: pointer"
                               :disabled="loadingState === item.id"
                               @click="removeCartItem(item.id)"
                             ></i>

@@ -180,8 +180,7 @@
 
 <script>
 import emitter from "@/libraries/emitter";
-import ProgressView from "@/components/ProgressView";
-
+import ProgressView from "@/components/ProgressView.vue";
 export default {
   components: {
     ProgressView,
@@ -206,18 +205,15 @@ export default {
       orderId: "",
     };
   },
-
   methods: {
     sendOrder() {
       const order = this.form;
-
       this.loadingState = true;
       const url = `${process.env.VUE_APP_API}/api/${process.env.VUE_APP_PATH}/order`;
       this.$http
         .post(url, { data: order })
         .then((res) => {
           this.orderId = res.data.orderId;
-
           this.loadingState = false;
           this.form.message = "";
           this.$router.push({ name: "完成訂單", query: { id: this.orderId } });
@@ -238,7 +234,7 @@ export default {
           console.log(err.response.data);
         });
     },
-    //電話驗證
+    // 電話驗證
     isPhone(value) {
       const phoneNumber = /^(09)[0-9]{8}$/;
       return phoneNumber.test(value) ? true : "請輸入正確的電話號碼";

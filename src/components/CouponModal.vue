@@ -17,8 +17,8 @@
           </h5>
           <button
             type="button"
-            class="btn btn-close"
-            dta-bs-dismiss="modal"
+            class="btn-close"
+            data-bs-dismiss="modal"
             aria-label="Close"
           ></button>
         </div>

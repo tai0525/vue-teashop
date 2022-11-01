@@ -6,7 +6,7 @@
           class="d-flex flex-column justify-content-center align-items-center"
         >
           <h2 class="fs1">
-            歡慶開幕，限時 <span class="text-danger fw-bold"> 8折 </span>優惠
+            歡慶開幕，限時 <span class="text-danger fw-bold"> 5折 </span>優惠
           </h2>
           <p class="fs-3 text-danger">立刻領取折價券</p>
           <button
