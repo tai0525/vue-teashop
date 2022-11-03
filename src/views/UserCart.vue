@@ -81,7 +81,9 @@
                               已套用優惠券
                             </div>
                           </td>
-                          <td>$ {{ item.product.price }}</td>
+                          <td>
+                            $ {{ $filters.numberAddComma(item.product.price) }}
+                          </td>
                           <td>
                             <input
                               min="1"

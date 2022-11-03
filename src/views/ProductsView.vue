@@ -67,11 +67,16 @@
                   <div
                     class="text-center text-muted text-decoration-line-through mt-2"
                   >
-                    原價 NT$ <span>{{ item.origin_price }}</span>
+                    原價 NT$
+                    <span>{{
+                      $filters.numberAddComma(item.origin_price)
+                    }}</span>
                   </div>
                   <div class="text-center text-danger mt-2">
                     特價 NT$
-                    <span class="fw-bold">{{ item.price }}</span>
+                    <span class="fw-bold">{{
+                      $filters.numberAddComma(item.price)
+                    }}</span>
                   </div>
                 </div>
               </div>

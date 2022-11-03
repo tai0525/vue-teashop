@@ -25,7 +25,9 @@
                       >
                         <td scope="row">{{ item.product.title }}</td>
                         <td width="20%">{{ item.qty }}</td>
-                        <td width="30%">$ {{ item.product.price }}</td>
+                        <td width="30%">
+                          $ {{ $filters.numberAddComma(item.product.price) }}
+                        </td>
                       </tr>
                     </tbody>
                   </table>

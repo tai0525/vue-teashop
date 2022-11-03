@@ -101,7 +101,7 @@ const router = createRouter({
       return {
         top: 0,
       };
-    } else if (to.fullPath.match("knowledeg")) {
+    } else if (to.fullPath.match("knowledge")) {
       return {
         top: 0,
       };

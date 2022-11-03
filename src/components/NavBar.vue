@@ -25,7 +25,7 @@
         <ul class="navbar-nav ms-auto fs-5 text-nowrap">
           <li class="nav-item mx-2">
             <RouterLink
-              class="nav-link active underline-effect"
+              class="nav-link underline-effect"
               aria-current="page"
               to="/user/about"
               >關於我們</RouterLink
@@ -33,16 +33,14 @@
           </li>
           <li class="nav-item mx-2">
             <RouterLink
-              class="nav-link active underline-effect"
+              class="nav-link underline-effect"
               aria-current="page"
               to="/user/knowledge"
               >茶葉知識</RouterLink
             >
           </li>
           <li class="nav-item mx-2">
-            <RouterLink
-              class="nav-link active underline-effect"
-              to="/user/products"
+            <RouterLink class="nav-link underline-effect" to="/user/products"
               >所有商品</RouterLink
             >
           </li>

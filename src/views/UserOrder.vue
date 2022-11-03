@@ -26,7 +26,8 @@
                           {{ item.qty }}
                         </td>
                         <td width="30%">
-                          $ {{ item.product.price }}/ {{ item.product.unit }}
+                          $ {{ $filters.numberAddComma(item.product.price) }}/
+                          {{ item.product.unit }}
                         </td>
                       </tr>
                     </tbody>

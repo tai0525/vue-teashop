@@ -43,10 +43,12 @@
         </div>
         <div v-else>
           <p class="text-decoration-line-through h5">
-            原價 NT$ : {{ product.origin_price }} / {{ product.unit }}
+            原價 NT$ : {{ $filters.numberAddComma(product.origin_price) }} /
+            {{ product.unit }}
           </p>
           <p class="h4 text-danger fw-bold">
-            特價 NT$ : {{ product.price }} / {{ product.unit }}
+            特價 NT$ : {{ $filters.numberAddComma(product.price) }} /
+            {{ product.unit }}
           </p>
         </div>
 

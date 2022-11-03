@@ -92,7 +92,7 @@
                   </tr>
                   <tr>
                     <th>總金額</th>
-                    <td>{{ tempOrder.total }}</td>
+                    <td>{{ $filters.numberAddComma(tempOrder.total) }}</td>
                   </tr>
                 </tbody>
               </table>
@@ -108,7 +108,7 @@
                     </th>
                     <td>{{ item.qty }} / {{ item.product.unit }}</td>
                     <td class="text-end">
-                      {{ item.final_total }}
+                      {{ $filters.numberAddComma(item.final_total) }}
                     </td>
                   </tr>
                 </tbody>

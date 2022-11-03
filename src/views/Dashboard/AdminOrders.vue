@@ -37,7 +37,7 @@
                   </li>
                 </ul>
               </td>
-              <td>{{ item.total }}</td>
+              <td>{{ $filters.numberAddComma(item.total) }}</td>
               <td>
                 <span class="text-success" v-if="item.is_paid">已付款</span>
                 <span class="text-danger" v-else>未付款</span>
